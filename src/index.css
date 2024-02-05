@@ -1,0 +1,143 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #F4F4F4;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.navbar {
+  background-color: #f05a22;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 1rem 4rem;
+  gap: 15rem;
+  position: sticky;
+  top: 10px;
+}
+
+.center-div {
+  background-color: white;
+  border-radius: 16px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 400px;
+}
+.input-search {
+  width: 100%;
+  border: none;
+  height: 40px;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+.main-div {
+  display: flex;
+  background-color: white;
+  margin: 10px;
+  border-radius: 15px;
+}
+.card {
+  width: 350px;
+  height: 390px;
+  padding: 15px;
+  margin: 10px;
+}
+
+.card-img {
+  width: 300px;
+  height: 200px;
+}
+.description {
+  width: 300px;
+}
+
+.bottom {
+  display: flex;
+  align-items: center;
+}
+
+.arrow-button {
+  width: 50px;
+  height: 50px;
+}
+
+.top-container{
+  height: 600px;
+}
+.top{
+  display: flex;
+}
+.bottom-div {
+  display: flex;
+  align-items: center;
+  gap: 100px;
+  justify-items:  space-around;
+  width: 100%;
+  height: 380px;
+}
+.left {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  width: 500px;
+  height: 300px;
+  background-image: url("./Assets/unsplash_img.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0px;
+  margin-left: 10px;
+
+  
+}
+
+.icons {
+display: flex;
+justify-content: space-evenly;
+  width: 100px;
+  margin-bottom: 40px;
+  margin-right: 20px;
+  
+}
+.left p {
+  width: 200px;
+  color: white;
+  font-weight: bold;
+  margin-left: 30px;
+  margin-bottom: 40px;
+}
+.right{
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  margin-bottom: 200px;
+}
+
+button {
+  width: 80px;
+  outline: none;
+  border: none;
+  padding: 8px;
+  border-radius: 5px;
+
+}
+.active {
+  background-color: #f05a22;
+}
+.para {
+  width: 250px;
+}
